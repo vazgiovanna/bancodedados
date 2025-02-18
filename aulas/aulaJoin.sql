@@ -29,4 +29,3 @@ INSERT INTO endereco(rua, numero, pessoa_id) VALUES ("Tokyo", "Setagaya", 4);
 SELECT pessoa.nome, endereco.rua FROM pessoa JOIN endereco ON pessoa.id = endereco.id;
 SELECT pessoa.nome, endereco.rua FROM endereco RIGHT JOIN pessoa ON pessoa.id = endereco.id;
 SELECT pessoa.nome, endereco.rua FROM pessoa LEFT JOIN endereco ON pessoa.id = endereco.id;
-
